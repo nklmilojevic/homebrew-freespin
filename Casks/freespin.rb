@@ -1,6 +1,6 @@
 cask "freespin" do
-  version "0.2.0"
-  sha256 "5b5805bbb0cc1b42f8afa6dd00921ce50327afd38fd3b2e3f4a9d10e155b9baa"
+  version "0.3.0"
+  sha256 "03042ee14e95793d63da34c4c02d8bf7bd06da2074cefdf0f93fc101664c7787"
 
   url "https://github.com/nklmilojevic/freespin/releases/download/v#{version}/Freespin-#{version}.dmg"
   name "Freespin"

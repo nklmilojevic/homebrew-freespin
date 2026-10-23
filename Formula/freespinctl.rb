@@ -1,8 +1,8 @@
 class Freespinctl < Formula
   desc "Command-line tool and daemon for Logitech HID++ mice"
   homepage "https://github.com/nklmilojevic/freespin"
-  url "https://github.com/nklmilojevic/freespin/releases/download/v0.2.0/freespinctl-0.2.0-macos.tar.gz"
-  sha256 "34028c546780645ec078b4f70a106ad0915e66f2df6da7baf61d2752a7c90bc7"
+  url "https://github.com/nklmilojevic/freespin/releases/download/v0.3.0/freespinctl-0.3.0-macos.tar.gz"
+  sha256 "9ac2895d7e86b2c39166b701916ca4dc98b66cb6b4f274975cb755c5e103c1dc"
 
   livecheck do
     url :stable
