@@ -74,7 +74,7 @@ class Freespinctl < Formula
     <<~EOS
       The freespinctl daemon needs Accessibility and Input Monitoring access.
       Grant both to the freespinctl binary in System Settings > Privacy & Security:
-        #{opt_bin}/freespinctl
+        #{rack}/#{pkg_version}/bin/freespinctl
       macOS ties these grants to the binary's real (versioned Cellar) path, so
       grant them again after every \`brew upgrade freespinctl\`.
 
